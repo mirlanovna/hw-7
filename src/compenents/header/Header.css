@@ -1,0 +1,22 @@
+.header {
+    padding: 15px 0;
+    background-color: aquamarine;
+}
+.btns button {
+    width: 150px;
+    height: 30px;
+    background: none;
+    border: none;
+    font-size: 19px;
+    transition: border-bottom .3s;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.btn.border__bottom {
+    border-bottom: 2px solid red;
+}
